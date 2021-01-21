@@ -1,0 +1,11 @@
+syntax = "proto2";
+package pt;
+
+option java_package = "com.rsx.netty.pt";
+option java_outer_classname = "Test";
+
+message Person{
+    optional string name = 1;
+    optional int32 age = 2;
+    optional string email = 3;
+}
